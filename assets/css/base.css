@@ -1,0 +1,48 @@
+:root {
+    --white-color: #fff;
+    --white-2-color: rgba(255, 255, 255, 0.8);
+    --black-color: #000;
+    --black-2-color: rgba(0, 0, 0, 0.5);
+    --base-color: #6b2c08;
+    --height-logo: 14rem;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'UTM Bebas' , sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    box-sizing: border-box;
+}
+
+.decoration {
+    text-decoration: none;
+}
+
+.cl-white {
+    color: var(--white-color);
+}
+
+.cl-black {
+    color: var(--black-color);
+}
+
+.cl-base {
+    color: var(--base-color);
+}
+
+.style {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.ml-2 {
+    margin-left: 2rem;
+}
+
+
