@@ -12,8 +12,6 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -4px;  /* dành cho mobi */
-    margin-right: -4px;
 }
 
 .row.no-gutter {  /* ko cần khoản cách giữa các column */
