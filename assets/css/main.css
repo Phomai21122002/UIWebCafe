@@ -1143,6 +1143,7 @@
     font-weight: 500;
     color: rgba(0, 0, 0, 0.8);
     line-height: 2.4rem;
+    padding: 0 1rem;
 }
 
 /*navbar produce */
@@ -1156,13 +1157,14 @@
 /* menu */
 
 .form-navbar-menu_desc {
-    width: 60%;
+    max-width: 700px;
     font-size: 1.6rem;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.8);
     line-height: 2.4rem;
     text-align: center;
     margin: 0 auto 2rem;
+    padding: 0 1rem;
 }
 
 .form-navbar-contact_img {
