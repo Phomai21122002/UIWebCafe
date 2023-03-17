@@ -1546,3 +1546,81 @@
     background-color: var(--white-color);
     color: var(--black-color);
 }
+
+/* login */
+.body-login {
+    display: block;
+}
+
+.body-login-box {
+    width: 400px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin: 8rem auto;
+    padding: 2rem;
+}
+
+.body-login-box_new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-login-box_iconlink img {
+    height: 40px;
+    width: 100%;
+}
+
+.body-login-box_header {
+    text-align: center;
+}
+
+.body-login-box_title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin: 3rem;
+}
+
+.body-login-box_desc {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 3rem 1rem;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-login input {
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 12px 18px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.form-login #btn {
+    color: var(--white-color);
+    background-color: var(--base-color);
+    cursor: pointer;
+}
+
+.body-login-box_different {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-login-box_link,
+.body-login-box_restore {
+    color: var(--black-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 8px 18px;
+}
+
+.body-login-box_iconlink {
+    margin: 2rem 1rem;
+}
