@@ -183,17 +183,31 @@
                                     <div class="form-detailproduct_title">
                                         Số lượng:
                                     </div>
-                                    <div class="form-order_boxnumber">
-                                        <div class="form-order_minus pd">
+                                    <div id="buy_amount"  class="form-order_boxnumber">
+                                        <button onclick="handle_minus()" class="buy_btn form-order_minus pd">
                                             <i class="form-order_changenumber-icon fa-solid fa-minus"></i>
-                                        </div>
-                                        <span class="form-order_number">1</span>
-                                        <div class="form-order_plus pd">
+                                        </button>
+                                        <input type="text" name="amount" id="amount" value="1">
+                                        <button onclick="handle_plus()" class="buy_btn form-order_plus pd">
                                             <i class="form-order_changenumber-icon fa-solid fa-plus"></i>
-                                        </div>
+                                        </button>
                                     </div>
                                 </div>
-
+                                <div class="form-order-product_box">
+                                    <div class="form-order-product_title">
+                                        Tùy chọn thêm
+                                    </div>
+                                    <div class="form-order-product_other">
+                                        Chọn tối đa  5
+                                    </div>
+                                    <ul class="form-order-product_list style">
+                                        <li class="form-order-product_item form-order-product_itemfull">
+                                            <input id="cake"  type="checkbox" class="form-order-product_choose">
+                                            <label for="cake" class="form-order-product_type">Bánh ngọt - ₫10.000</label>
+                                            <span class="form-order-product_count">x1</span>
+                                        </li>
+                                    </ul>
+                                </div>
                                 <div class="form-detailproduct_formbtn">
                                     <div class="form-detailproduct_btn">
                                         <button class="decoration form-detailproduct_linkcart btn cl-base bg-color-base-1">
@@ -354,5 +368,6 @@
         </div>
     </div>
 
+    <script src="../assets/js/index.js"></script>
 </body>
 </html>
